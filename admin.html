@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkAdmin()">
+
+<h2>Admin – User Management</h2>
+
+<input id="newUser" placeholder="Username">
+<input id="newPass" placeholder="Password">
+<select id="role">
+  <option value="user">User</option>
+  <option value="admin">Admin</option>
+</select>
+<button onclick="createUser()">Create User</button>
+
+<pre id="output"></pre>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadDashboard()">
+
+<header>
+  <h2>ELESpa HEV Dashboard</h2>
+  <nav>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="live.html">Live</a>
+    <a href="history.html">History</a>
+    <a href="settings.html">Settings</a>
+    <a href="admin.html">Admin</a>
+    <button onclick="logout()">Logout</button>
+  </nav>
+</header>
+
+<div class="cards">
+  <div class="card blue"><h3>Battery SOC</h3><p id="battery">--%</p></div>
+  <div class="card green"><h3>Speed</h3><p id="speed">-- km/h</p></div>
+  <div class="card orange"><h3>Temperature</h3><p id="temp">-- °C</p></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

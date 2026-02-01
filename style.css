@@ -1,0 +1,13 @@
+body { margin:0; font-family:Segoe UI; background:#f4f6f8; }
+header { background:#0f2027; color:white; padding:10px; }
+nav a { color:white; margin-right:10px; text-decoration:none; }
+nav button { float:right; }
+
+.login { display:flex; height:100vh; align-items:center; justify-content:center; background:#203a43; }
+.card { background:white; padding:20px; border-radius:6px; }
+
+.cards { display:flex; justify-content:space-around; margin:40px; }
+.card.blue { background:#007bff; color:white; }
+.card.green { background:#28a745; color:white; }
+.card.orange { background:#fd7e14; color:white; }
+.card p { font-size:30px; }
